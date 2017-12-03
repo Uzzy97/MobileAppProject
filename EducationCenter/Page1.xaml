@@ -84,6 +84,24 @@
 
                 </StackPanel>
             </PivotItem>
+            <!--PivotItem Header="Introduction To Planets" Background="LightCoral">
+                <StackPanel>
+
+                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="DarkBlue" TextWrapping="Wrap"
+                               Text="
+                               
+                               
+                               Hello Kids, Welcome To Our Online Teaching About Our Wonderful Planets That We Are Surrounded By...Lets Have A Look, Shall We?" Height="200" Width="600"/>
+                    <StackPanel Background="White" Height="300">
+                        <Image x:Name="image1" Source="/images/Children-Education.jpg" Height="300" Width="500" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Background="AntiqueWhite" Height="100">
+                        <Button x:Name="button1" Content="Review" HorizontalAlignment="Center" Background="Coral"
+                            VerticalAlignment="Center" Width="200" Height="100" Foreground="DarkBlue" Tapped="button_Tapped"/>
+                    </StackPanel>
+
+                </StackPanel>
+            </-->
 
         </Pivot>
     </Grid>
@@ -125,7 +143,7 @@
 
                 </PivotItem>
 
-                <PivotItem Header="Jupiter" Background="Brown"></PivotItem>
+                
 
                 <PivotItem Header="Neptune" Background="Blue"></PivotItem>
 
