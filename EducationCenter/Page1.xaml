@@ -84,6 +84,7 @@
 
                 </StackPanel>
             </PivotItem>
+            <!-- made a change -->
             <!--PivotItem Header="Introduction To Planets" Background="LightCoral">
                 <StackPanel>
 
