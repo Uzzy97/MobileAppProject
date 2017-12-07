@@ -352,6 +352,12 @@
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\enter-yellow-round.png">
       <PackagePath>Images\enter-yellow-round.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\mars.png">
+      <PackagePath>Images\mars.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\neptune-transparent.png">
+      <PackagePath>Images\neptune-transparent.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\planet-trans-jupiter.png">
       <PackagePath>Images\planet-trans-jupiter.png</PackagePath>
     </AppxPackagedFile>

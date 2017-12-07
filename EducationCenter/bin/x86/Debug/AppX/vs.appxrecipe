@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-06T11:11:48.983</Modified>
+      <Modified>2017-12-07T14:25:25.865</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\EducationCenter.exe">
       <PackagePath>entrypoint\EducationCenter.exe</PackagePath>
-      <Modified>2017-12-06T11:11:36.265</Modified>
+      <Modified>2017-12-07T14:25:24.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usman\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -472,6 +472,14 @@
       <PackagePath>Images\enter-yellow-round.png</PackagePath>
       <Modified>2017-12-03T22:57:33.773</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\mars.png">
+      <PackagePath>Images\mars.png</PackagePath>
+      <Modified>2017-12-07T13:16:28.552</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\neptune-transparent.png">
+      <PackagePath>Images\neptune-transparent.png</PackagePath>
+      <Modified>2017-12-07T10:30:10.032</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\planet-trans-jupiter.png">
       <PackagePath>Images\planet-trans-jupiter.png</PackagePath>
       <Modified>2017-12-03T22:57:33.780</Modified>
@@ -516,7 +524,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\EducationCenter.xr.xml">
       <PackagePath>EducationCenter.xr.xml</PackagePath>
-      <Modified>2017-12-03T22:57:35.730</Modified>
+      <Modified>2017-12-07T13:32:09.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -525,11 +533,11 @@
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-06T11:11:46.610</Modified>
+      <Modified>2017-12-07T14:25:25.460</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\Core\EducationCenter.exe">
       <PackagePath>EducationCenter.exe</PackagePath>
-      <Modified>2017-12-06T11:11:48.969</Modified>
+      <Modified>2017-12-07T14:25:25.857</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

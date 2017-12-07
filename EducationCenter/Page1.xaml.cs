@@ -37,5 +37,10 @@ namespace EducationCenter
         {
             this.Frame.Navigate(typeof(Page2), null);
         }
+
+        private void textBlock136_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

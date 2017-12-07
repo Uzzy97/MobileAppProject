@@ -8,8 +8,8 @@
     mc:Ignorable="d">
 
 
-    
-        <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Pivot x:Name="myPivot" Background="White">
             <PivotItem Header="Introduction To Planets" Background="LightCoral">
                 <StackPanel>
@@ -29,10 +29,10 @@
 
                 </StackPanel>
             </PivotItem>
-            
+
             <PivotItem Header="Earth" Background="LightBlue">
                 <StackPanel VerticalAlignment="Top" Background="DarkBlue">
-                    
+
                     <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" FontStyle="Oblique" FontSize="25" TextAlignment="Left" Foreground="Wheat" TextWrapping="Wrap"
                                Text="1. The Earth's roatation is gradualy slowing.
                                    6. Fromed 4.54 billion years ago."
@@ -62,11 +62,11 @@
                                10. Earth is the largest of the terrestrial planets."
                                VerticalAlignment="Top"/>
                     </StackPanel>
-                    
+
                     <StackPanel>
                         <Image x:Name="image2" Source="/images/Earth_Western_Hemisphere_transparent_background.png" Margin="3,0,0,66"/>
                     </StackPanel>
-                    
+
                 </StackPanel>
 
             </PivotItem>
@@ -86,25 +86,100 @@
 
                 </StackPanel>
             </PivotItem>
-            <!-- made a change -->
-            <!--PivotItem Header="Introduction To Planets" Background="LightCoral">
+
+            <PivotItem Header="Neptune">
                 <StackPanel>
 
-                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="DarkBlue" TextWrapping="Wrap"
-                               Text="
-                               
-                               
-                               Hello Kids, Welcome To Our Online Teaching About Our Wonderful Planets That We Are Surrounded By...Lets Have A Look, Shall We?" Height="200" Width="600"/>
-                    <StackPanel Background="White" Height="300">
-                        <Image x:Name="image1" Source="/images/Children-Education.jpg" Height="300" Width="500" HorizontalAlignment="Center"/>
+                    <StackPanel Background="WhiteSmoke">
+
+                        <TextBlock x:Name="textBlock14556" HorizontalAlignment="Center" FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="Black" TextWrapping="Wrap"
+                               Text="Neptune is the 8th planet from the sun.
+                                   It takes Neptune 164.8 Earth years to orbit the Sun.
+                                   Neptune was discovered by Jean Joseph Le Verrier.
+                                   The inner core of the planet is made of rock.
+                                   The atmosphere of Neptune is made of hydrogen and helium, with some methane.
+                                   " Height="200" Width="600"/>
                     </StackPanel>
-                    <StackPanel Background="AntiqueWhite" Height="100">
-                        <Button x:Name="button1" Content="Review" HorizontalAlignment="Center" Background="Coral"
-                            VerticalAlignment="Center" Width="200" Height="100" Foreground="DarkBlue" Tapped="button_Tapped"/>
+                    <StackPanel Background="Navy" Height="300">
+                        <Grid Height="400" Width="300" Margin="0,-50,0,0">
+                            <Image x:Name="image5" Source="/images/neptune-transparent.png" Width="400" Height="400" HorizontalAlignment="Center"/>
+                        </Grid>
+                    </StackPanel>
+
+                    <StackPanel Height="600" Background="SkyBlue">
+                        <TextBlock x:Name="textBlock145556" HorizontalAlignment="Center" FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="Black" TextWrapping="Wrap"
+                               Text="Neptune spins on its axis very rapidly.
+                                   Neptune was not known to the ancients.
+                                   Neptune is the smallest of the ice giants.
+                                   Only one spacecraft has flown by Neptune.
+                                   Neptune has 14 moons." Height="200" Width="600"/>
                     </StackPanel>
 
                 </StackPanel>
-            </-->
+            </PivotItem>
+    
+
+
+            <PivotItem Header="Mars" Background="Orange">
+                <StackPanel>
+                    <StackPanel Background="Beige" Height="500">
+                        <Grid Height="500">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="40*"/>
+                                <ColumnDefinition Width="30*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="1" x:Name="image369" Source="/images/mars.png" Height="500" Width="500" HorizontalAlignment="Center" />
+                            <StackPanel Background="Orange">
+                                <TextBlock Grid.Column="0"  x:Name="textBlock146" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontStyle="Oblique" FontSize="25" TextAlignment="Left" Foreground="Black" TextWrapping="Wrap"
+                               Text="Mars is the 4th planet from the sun.
+                                       
+                                           
+                                         It is the second smallest planet in the solar system.
+                                   
+                                           
+                                           Mars is also often described as the *Red Planet* due to its reddish appearance.
+                                   
+                                           
+                                           Mars and Earth have approximately the same landmass.
+                                   
+                                           
+                                           Mars is home to the tallest mountain in the solar system.
+                                   
+                                           
+                                           Mars has the largest dust storms in the solar system.
+                                   
+                                           
+                                           Pieces of Mars have fallen to Earth.
+                                           
+                                           
+                                           
+                                           Pieces of Mars have fallen to Earth.
+                                   " Height="500" Margin="0,0,196,0"/>
+                            </StackPanel>
+
+                        </Grid>
+                    </StackPanel>
+                    <StackPanel>
+
+                        
+                        
+
+                        <StackPanel Background="Beige" Height="500">
+
+                            <TextBlock x:Name="textBlock156" HorizontalAlignment="Left" FontStyle="Italic" FontSize="30" TextAlignment="Left" Foreground="Black" TextWrapping="Wrap"
+                               Text="There are signs of liquid water on Mars.
+                                   " Height="70" Width="548"/>
+                            <TextBlock x:Name="textBlock136" HorizontalAlignment="Left" FontStyle="Normal" FontSize="25" TextAlignment="Left" Foreground="Brown" TextWrapping="Wrap"
+                               Text="For years Mars has been known to have water in the form of ice. The first signs of trickling water are dark stripes or stains on crater wall and cliffs seen in satellite images. Due to Mars' atmosphere this water would have to be salty to prevent it from freezing or vaporising.                                    " Height="200" Width="1248" SelectionChanged="textBlock136_SelectionChanged"/>
+                        </StackPanel>
+                    </StackPanel>
+
+
+                </StackPanel>
+            </PivotItem>
+
+
+
 
         </Pivot>
     </Grid>
@@ -148,10 +223,9 @@
 
                 
 
-                <PivotItem Header="Neptune" Background="Blue"></PivotItem>
+                
 
-                <PivotItem Header="Mars" Background="Orange"></PivotItem>
-
+                
                 <PivotItem Header="Mercury" Background="Indigo"></PivotItem>
                 <PivotItem Header="Saturn" Background="Beige"/>
                 <PivotItem Header="Venus" Background="Gold"/>
@@ -159,7 +233,7 @@
         </Pivot-->
 
 
-            <!--PivotItem Header="Jupiter" Background="Brown">
+<!--PivotItem Header="Jupiter" Background="Brown">
                 <Button x:Name="btnHome3"
                 Background="Pink"
                 Width="200"
