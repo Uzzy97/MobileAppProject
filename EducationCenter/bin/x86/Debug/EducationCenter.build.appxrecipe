@@ -10,19 +10,19 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>21014849-34d0-4be9-8d4a-b62bcd7c0d0f</PackageIdentityName>
     <PackageIdentityPublisher>CN=Usman</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\bin\x86\Debug\EducationCenter.exe">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\EducationCenter.exe">
       <PackagePath>entrypoint\EducationCenter.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usman\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -334,68 +334,68 @@
     <AppxPackagedFile Include="C:\Users\Usman\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Images\Children-Education.jpg">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\Children-Education.jpg">
       <PackagePath>Images\Children-Education.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Images\earth.jpg">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\earth.jpg">
       <PackagePath>Images\earth.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Images\earth2.jpg">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\earth2.jpg">
       <PackagePath>Images\earth2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Images\download %281%29.png">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\download %281%29.png">
       <PackagePath>Images\download %281%29.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Images\Earth_Western_Hemisphere_transparent_background.png">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\Earth_Western_Hemisphere_transparent_background.png">
       <PackagePath>Images\Earth_Western_Hemisphere_transparent_background.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Images\enter-yellow-round.png">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\enter-yellow-round.png">
       <PackagePath>Images\enter-yellow-round.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Images\planet-trans-jupiter.png">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\planet-trans-jupiter.png">
       <PackagePath>Images\planet-trans-jupiter.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\bin\x86\Debug\EducationCenter.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\EducationCenter.xr.xml">
       <PackagePath>EducationCenter.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\bin\x86\Debug\Core\EducationCenter.exe">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\Core\EducationCenter.exe">
       <PackagePath>EducationCenter.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

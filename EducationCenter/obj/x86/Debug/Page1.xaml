@@ -10,21 +10,21 @@
 
     
         <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Pivot x:Name="myPivot" Background="White">
+        <Pivot x:ConnectionId='1' x:Name="myPivot" Background="White">
             <PivotItem Header="Introduction To Planets" Background="LightCoral">
                 <StackPanel>
 
-                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="DarkBlue" TextWrapping="Wrap"
+                    <TextBlock x:ConnectionId='10' x:Name="textBlock1" HorizontalAlignment="Center" FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="DarkBlue" TextWrapping="Wrap"
                                Text="
                                
                                
                                Hello Kids, Welcome To Our Online Teaching About Our Wonderful Planets That We Are Surrounded By...Lets Have A Look, Shall We?" Height="200" Width="600"/>
                     <StackPanel Background="White" Height="300">
-                        <Image x:Name="image1" Source="/images/Children-Education.jpg" Height="300" Width="500" HorizontalAlignment="Center"/>
+                        <Image x:ConnectionId='12' x:Name="image1" Source="/images/Children-Education.jpg" Height="300" Width="500" HorizontalAlignment="Center"/>
                     </StackPanel>
                     <StackPanel Background="AntiqueWhite" Height="100">
-                        <Button x:Name="button1" Content="Review" HorizontalAlignment="Center" Background="Coral"
-                            VerticalAlignment="Center" Width="200" Height="100" Foreground="DarkBlue" Tapped="button_Tapped"/>
+                        <Button x:ConnectionId='11' x:Name="button1" Content="Review" HorizontalAlignment="Center" Background="Coral"
+                            VerticalAlignment="Center" Width="200" Height="100" Foreground="DarkBlue"                       />
                     </StackPanel>
 
                 </StackPanel>
@@ -33,38 +33,38 @@
             <PivotItem Header="Earth" Background="LightBlue">
                 <StackPanel VerticalAlignment="Top" Background="DarkBlue">
                     
-                    <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" FontStyle="Oblique" FontSize="25" TextAlignment="Left" Foreground="Wheat" TextWrapping="Wrap"
+                    <TextBlock x:ConnectionId='4' x:Name="textBlock2" HorizontalAlignment="Left" FontStyle="Oblique" FontSize="25" TextAlignment="Left" Foreground="Wheat" TextWrapping="Wrap"
                                Text="1. The Earth's roatation is gradualy slowing.
                                    6. Fromed 4.54 billion years ago."
                                VerticalAlignment="Top"/>
                     <StackPanel VerticalAlignment="Top" Background="LightBlue">
-                        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="DarkGray" TextWrapping="Wrap"
+                        <TextBlock x:ConnectionId='9' x:Name="textBlock3" HorizontalAlignment="Left" FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="DarkGray" TextWrapping="Wrap"
                                Text="2. There are 7.6 billion people on the earth.
                                     7. The Earth has a powerful magnetic field."
                                VerticalAlignment="Top"/>
                     </StackPanel>
                     <StackPanel VerticalAlignment="Top" Background="DarkBlue">
-                        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="Wheat" TextWrapping="Wrap"
+                        <TextBlock x:ConnectionId='8' x:Name="textBlock4" HorizontalAlignment="Left" FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="Wheat" TextWrapping="Wrap"
                                Text="3. Once believed to be the centre of the universe.
                          8. The Earth is the densest planet in the Solar System."
                                VerticalAlignment="Top"/>
                     </StackPanel>
                     <StackPanel VerticalAlignment="Top" Background="LightBlue">
-                        <TextBlock x:Name="textBlock5" HorizontalAlignment="Left"
+                        <TextBlock x:ConnectionId='7' x:Name="textBlock5" HorizontalAlignment="Left"
                                    FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="DarkGray" TextWrapping="Wrap"
                                Text="4. Earth is the only planet not named after God.
                             9. There is only one natural satellite of the planet Earth."
                                VerticalAlignment="Top"/>
                     </StackPanel>
                     <StackPanel VerticalAlignment="Top" Background="DarkBlue">
-                        <TextBlock x:Name="textBlock6" HorizontalAlignment="Left" FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="Wheat" TextWrapping="Wrap"
+                        <TextBlock x:ConnectionId='6' x:Name="textBlock6" HorizontalAlignment="Left" FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="Wheat" TextWrapping="Wrap"
                                Text="5. The Earth is the third planet from the sun.
                                10. Earth is the largest of the terrestrial planets."
                                VerticalAlignment="Top"/>
                     </StackPanel>
                     
                     <StackPanel>
-                        <Image x:Name="image2" Source="/images/Earth_Western_Hemisphere_transparent_background.png" Margin="3,0,0,66"/>
+                        <Image x:ConnectionId='5' x:Name="image2" Source="/images/Earth_Western_Hemisphere_transparent_background.png" Margin="3,0,0,66"/>
                     </StackPanel>
                     
                 </StackPanel>
@@ -74,11 +74,11 @@
             <PivotItem Header="Jupiter" Background="Brown">
                 <StackPanel>
                     <StackPanel Background="Beige" Height="500">
-                        <Image x:Name="image3" Source="/images/planet-trans-jupiter.png" Height="500" Width="500" HorizontalAlignment="Center"/>
+                        <Image x:ConnectionId='3' x:Name="image3" Source="/images/planet-trans-jupiter.png" Height="500" Width="500" HorizontalAlignment="Center"/>
                     </StackPanel>
                     <StackPanel>
 
-                        <TextBlock x:Name="textBlock1456" HorizontalAlignment="Center" FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="Beige" TextWrapping="Wrap"
+                        <TextBlock x:ConnectionId='2' x:Name="textBlock1456" HorizontalAlignment="Center" FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="Beige" TextWrapping="Wrap"
                                Text="Jupiter is the fifth planet out from the Sun. It's two and a half times more massive than all the other planets in the solar system combined.
                                    It is made primarily of gases and is therefore known as a *Gas Giant*" Height="200" Width="600"/>
                     </StackPanel>
@@ -257,4 +257,5 @@
         
 
     
+
 

@@ -1,1 +1,1 @@
-C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\EducationCenter.csproj;x86
+C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\EducationCenter.csproj;x86

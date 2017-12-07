@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>21014849-34d0-4be9-8d4a-b62bcd7c0d0f</PackageIdentityName>
     <PackageIdentityPublisher>CN=Usman</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-30T21:48:37.209</Modified>
+      <Modified>2017-12-06T11:11:48.983</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\bin\x86\Debug\EducationCenter.exe">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\EducationCenter.exe">
       <PackagePath>entrypoint\EducationCenter.exe</PackagePath>
-      <Modified>2017-11-30T21:48:35.621</Modified>
+      <Modified>2017-12-06T11:11:36.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usman\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -448,88 +448,88 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T22:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Images\Children-Education.jpg">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\Children-Education.jpg">
       <PackagePath>Images\Children-Education.jpg</PackagePath>
-      <Modified>2017-11-26T20:39:17.835</Modified>
+      <Modified>2017-12-03T22:57:33.636</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Images\earth.jpg">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\earth.jpg">
       <PackagePath>Images\earth.jpg</PackagePath>
-      <Modified>2017-11-26T23:30:46.694</Modified>
+      <Modified>2017-12-03T22:57:33.767</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Images\earth2.jpg">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\earth2.jpg">
       <PackagePath>Images\earth2.jpg</PackagePath>
-      <Modified>2017-11-26T23:32:43.493</Modified>
+      <Modified>2017-12-03T22:57:33.771</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Images\download %281%29.png">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\download %281%29.png">
       <PackagePath>Images\download %281%29.png</PackagePath>
-      <Modified>2017-11-30T14:45:49.192</Modified>
+      <Modified>2017-12-03T22:57:33.756</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Images\Earth_Western_Hemisphere_transparent_background.png">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\Earth_Western_Hemisphere_transparent_background.png">
       <PackagePath>Images\Earth_Western_Hemisphere_transparent_background.png</PackagePath>
-      <Modified>2017-11-30T15:00:09.563</Modified>
+      <Modified>2017-12-03T22:57:33.750</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Images\enter-yellow-round.png">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\enter-yellow-round.png">
       <PackagePath>Images\enter-yellow-round.png</PackagePath>
-      <Modified>2017-11-30T14:31:39.176</Modified>
+      <Modified>2017-12-03T22:57:33.773</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Images\planet-trans-jupiter.png">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\planet-trans-jupiter.png">
       <PackagePath>Images\planet-trans-jupiter.png</PackagePath>
-      <Modified>2017-11-30T21:29:05.062</Modified>
+      <Modified>2017-12-03T22:57:33.780</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2015-09-20T16:30:08.000</Modified>
+      <Modified>2017-12-03T22:57:33.608</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T16:30:08.000</Modified>
+      <Modified>2017-12-03T22:57:33.611</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T16:30:08.000</Modified>
+      <Modified>2017-12-03T22:57:33.614</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T16:30:08.000</Modified>
+      <Modified>2017-12-03T22:57:33.616</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T16:30:08.000</Modified>
+      <Modified>2017-12-03T22:57:33.619</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T16:30:08.000</Modified>
+      <Modified>2017-12-03T22:57:33.621</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T16:30:08.000</Modified>
+      <Modified>2017-12-03T22:57:33.625</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2017-11-26T00:25:18.847</Modified>
+      <Modified>2017-12-03T22:57:33.805</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\bin\x86\Debug\EducationCenter.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\EducationCenter.xr.xml">
       <PackagePath>EducationCenter.xr.xml</PackagePath>
-      <Modified>2017-11-30T21:40:12.366</Modified>
+      <Modified>2017-12-03T22:57:35.730</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-10-05T16:26:44.100</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-30T21:48:36.732</Modified>
+      <Modified>2017-12-06T11:11:46.610</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usman\documents\visual studio 2015\Projects\EducationCenter\EducationCenter\bin\x86\Debug\Core\EducationCenter.exe">
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\Core\EducationCenter.exe">
       <PackagePath>EducationCenter.exe</PackagePath>
-      <Modified>2017-11-30T21:48:37.199</Modified>
+      <Modified>2017-12-06T11:11:48.969</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
