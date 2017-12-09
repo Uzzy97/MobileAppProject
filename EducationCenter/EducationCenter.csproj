@@ -120,6 +120,7 @@
     <Content Include="Images\Earth_Western_Hemisphere_transparent_background.png" />
     <Content Include="Images\enter-yellow-round.png" />
     <Content Include="Images\mars.png" />
+    <Content Include="Images\mercury.png" />
     <Content Include="Images\neptune-transparent.png" />
     <Content Include="Images\planet-trans-jupiter.png" />
     <Content Include="Properties\Default.rd.xml" />

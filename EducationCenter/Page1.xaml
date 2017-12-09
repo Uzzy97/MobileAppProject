@@ -150,10 +150,6 @@
                                    
                                            
                                            Pieces of Mars have fallen to Earth.
-                                           
-                                           
-                                           
-                                           Pieces of Mars have fallen to Earth.
                                    " Height="500" Margin="0,0,196,0"/>
                             </StackPanel>
 
@@ -170,6 +166,64 @@
                                Text="There are signs of liquid water on Mars.
                                    " Height="70" Width="548"/>
                             <TextBlock x:Name="textBlock136" HorizontalAlignment="Left" FontStyle="Normal" FontSize="25" TextAlignment="Left" Foreground="Brown" TextWrapping="Wrap"
+                               Text="For years Mars has been known to have water in the form of ice. The first signs of trickling water are dark stripes or stains on crater wall and cliffs seen in satellite images. Due to Mars' atmosphere this water would have to be salty to prevent it from freezing or vaporising.                                    " Height="200" Width="1248" SelectionChanged="textBlock136_SelectionChanged"/>
+                        </StackPanel>
+                    </StackPanel>
+
+
+                </StackPanel>
+            </PivotItem>
+
+
+
+
+
+            <PivotItem Header="Mercury" Background="Indigo">
+                <StackPanel>
+                    <StackPanel Height="500">
+                        <Grid Height="500">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="40*"/>
+                                <ColumnDefinition Width="30*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="1" x:Name="image389" Source="/images/mercury.png" Height="500" Width="500" HorizontalAlignment="Center" />
+                            <StackPanel Background="MistyRose">
+                                <TextBlock Grid.Column="0"  x:Name="textBlock446" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontStyle="Oblique" FontSize="25" TextAlignment="Left" Foreground="Black" TextWrapping="Wrap"
+                               Text="Mars is the 4th planet from the sun.
+                                       
+                                           
+                                         It is the second smallest planet in the solar system.
+                                   
+                                           
+                                           Mars is also often described as the *Red Planet* due to its reddish appearance.
+                                   
+                                           
+                                           Mars and Earth have approximately the same landmass.
+                                   
+                                           
+                                           Mars is home to the tallest mountain in the solar system.
+                                   
+                                           
+                                           Mars has the largest dust storms in the solar system.
+                                   
+                                           
+                                           Pieces of Mars have fallen to Earth.
+                                   " Height="500" Margin="0,0,196,0"/>
+                            </StackPanel>
+
+                        </Grid>
+                    </StackPanel>
+                    <StackPanel>
+
+
+
+
+                        <StackPanel Background="Beige" Height="500">
+
+                            <TextBlock x:Name="textBlock556" HorizontalAlignment="Left" FontStyle="Italic" FontSize="30" TextAlignment="Left" Foreground="Black" TextWrapping="Wrap"
+                               Text="There are signs of liquid water on Mars.
+                                   " Height="70" Width="548"/>
+                            <TextBlock x:Name="textBlock536" HorizontalAlignment="Left" FontStyle="Normal" FontSize="25" TextAlignment="Left" Foreground="Brown" TextWrapping="Wrap"
                                Text="For years Mars has been known to have water in the form of ice. The first signs of trickling water are dark stripes or stains on crater wall and cliffs seen in satellite images. Due to Mars' atmosphere this water would have to be salty to prevent it from freezing or vaporising.                                    " Height="200" Width="1248" SelectionChanged="textBlock136_SelectionChanged"/>
                         </StackPanel>
                     </StackPanel>
@@ -226,7 +280,7 @@
                 
 
                 
-                <PivotItem Header="Mercury" Background="Indigo"></PivotItem>
+                <PivotItem Header="" Background="Indigo"></PivotItem>
                 <PivotItem Header="Saturn" Background="Beige"/>
                 <PivotItem Header="Venus" Background="Gold"/>
                 <PivotItem Header="Uranus" Background="LightBlue"/>

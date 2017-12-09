@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-07T14:25:25.865</Modified>
+      <Modified>2017-12-09T00:24:58.366</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\EducationCenter.exe">
       <PackagePath>entrypoint\EducationCenter.exe</PackagePath>
-      <Modified>2017-12-07T14:25:24.367</Modified>
+      <Modified>2017-12-09T00:24:49.006</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usman\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -476,6 +476,10 @@
       <PackagePath>Images\mars.png</PackagePath>
       <Modified>2017-12-07T13:16:28.552</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\mercury.png">
+      <PackagePath>Images\mercury.png</PackagePath>
+      <Modified>2017-12-09T00:21:31.045</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\neptune-transparent.png">
       <PackagePath>Images\neptune-transparent.png</PackagePath>
       <Modified>2017-12-07T10:30:10.032</Modified>
@@ -533,11 +537,11 @@
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-07T14:25:25.460</Modified>
+      <Modified>2017-12-09T00:24:55.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\Core\EducationCenter.exe">
       <PackagePath>EducationCenter.exe</PackagePath>
-      <Modified>2017-12-07T14:25:25.857</Modified>
+      <Modified>2017-12-09T00:24:58.338</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

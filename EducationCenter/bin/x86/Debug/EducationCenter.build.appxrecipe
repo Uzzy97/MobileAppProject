@@ -355,6 +355,9 @@
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\mars.png">
       <PackagePath>Images\mars.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\mercury.png">
+      <PackagePath>Images\mercury.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\neptune-transparent.png">
       <PackagePath>Images\neptune-transparent.png</PackagePath>
     </AppxPackagedFile>
