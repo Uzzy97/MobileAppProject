@@ -177,39 +177,37 @@
 
 
 
-
             <PivotItem Header="Mercury" Background="Indigo">
                 <StackPanel>
                     <StackPanel Background="MistyRose" Height="500">
                         <Grid Height="500">
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="30*"/>
+                                <ColumnDefinition Width="40*"/>
                                 <ColumnDefinition Width="30*"/>
                             </Grid.ColumnDefinitions>
-                          
+                            <Image Grid.Column="1" x:Name="image389" Source="/images/mercury.png" Height="500" Width="500" HorizontalAlignment="Center" />
                             <StackPanel Background="Indigo">
-                                <Image Grid.Column="1" x:Name="image869" Source="/images/mercury.png" Height="500" Width="500" HorizontalAlignment="Center" />
-                                <!--TextBlock Grid.Column="0"  x:Name="textBlock186" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontStyle="Oblique" FontSize="25" TextAlignment="Left" Foreground="Black" TextWrapping="Wrap"
-                               Text="Mars is the 4th planet from the sun.
+                                <TextBlock Grid.Column="0"  x:Name="textBlock147" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontStyle="Oblique" FontSize="25" TextAlignment="Left" Foreground="MistyRose" TextWrapping="Wrap"
+                               Text="Mercury does not have any moons or rings.
                                        
                                            
-                                         It is the second smallest planet in the solar system.
+                                         Your weight on Mercury would be 38% of your weight on Earth.
                                    
                                            
-                                           Mars is also often described as the *Red Planet* due to its reddish appearance.
+                                           A day on the surface of Mercury lasts 176 Earth days.
                                    
                                            
-                                           Mars and Earth have approximately the same landmass.
+                                           A year on Mercury takes 88 Earth days.
                                    
                                            
-                                           Mars is home to the tallest mountain in the solar system.
+                                           Mercury has a diameter of 4,879 Km, making it the smallest planet.
                                    
                                            
-                                           Mars has the largest dust storms in the solar system.
+                                           It's not known who discovered Mercury.
                                    
                                            
                                            Pieces of Mars have fallen to Earth.
-                                   " Height="500" Margin="0,0,196,0"/-->
+                                   " Height="500" Margin="0,0,196,0"/>
                             </StackPanel>
 
                         </Grid>
@@ -221,21 +219,17 @@
 
                         <StackPanel Background="Beige" Height="500">
 
-                            <TextBlock x:Name="textBlock176" HorizontalAlignment="Left" FontStyle="Italic" FontSize="30" TextAlignment="Left" Foreground="Black" TextWrapping="Wrap"
-                               Text="There are signs of liquid water on Mars.
+                            <TextBlock x:Name="textBlock456" HorizontalAlignment="Left" FontStyle="Italic" FontSize="30" TextAlignment="Left" Foreground="Black" TextWrapping="Wrap"
+                               Text="MERCURY FACTS
                                    " Height="70" Width="548"/>
-                            <TextBlock x:Name="textBlock736" HorizontalAlignment="Left" FontStyle="Normal" FontSize="25" TextAlignment="Left" Foreground="Brown" TextWrapping="Wrap"
-                               Text="For years Mars has been known to have water in the form of ice. The first signs of trickling water are dark stripes or stains on crater wall and cliffs seen in satellite images. Due to Mars' atmosphere this water would have to be salty to prevent it from freezing or vaporising.                                    " Height="200" Width="1248" SelectionChanged="textBlock136_SelectionChanged"/>
+                            <TextBlock x:Name="textBlock636" HorizontalAlignment="Left" FontStyle="Normal" FontSize="20" TextAlignment="Left" Foreground="Brown" TextWrapping="Wrap"
+                               Text="Mercury is the closest planet to the Sun and due to its proximity it is not easily seen except during twilight. For every two orbits of the Sun, Mercury completes three rotations about its axis and up until 1965 it was thought that the same side of Mercury constantly faced the Sun. Thirteen times a century Mercury can be observed from the Earth passing across the face of the Sun in an event called a transit, the next will occur on the 9th May 2016." Height="200" Width="1248" SelectionChanged="textBlock136_SelectionChanged"/>
                         </StackPanel>
                     </StackPanel>
 
 
                 </StackPanel>
             </PivotItem>
-
-
-
-
         </Pivot>
     </Grid>
 </Page>

@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-10T13:48:18.932</Modified>
+      <Modified>2017-12-16T14:14:28.471</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\EducationCenter.exe">
       <PackagePath>entrypoint\EducationCenter.exe</PackagePath>
-      <Modified>2017-12-10T13:48:11.800</Modified>
+      <Modified>2017-12-16T14:14:26.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usman\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -537,11 +537,11 @@
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-10T13:48:17.387</Modified>
+      <Modified>2017-12-16T14:14:27.892</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\Core\EducationCenter.exe">
       <PackagePath>EducationCenter.exe</PackagePath>
-      <Modified>2017-12-10T13:48:18.922</Modified>
+      <Modified>2017-12-16T14:14:28.458</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
