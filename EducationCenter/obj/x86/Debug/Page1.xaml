@@ -6,132 +6,158 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-
-
-
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <!-- Creating a pivot -->
         <Pivot x:ConnectionId='1' x:Name="myPivot" Background="White">
-            <PivotItem Header="Introduction To Planets" Background="LightCoral">
+            <!-- Creating a pivot item header called Introduction To Planets -->
+                <PivotItem Header="Introduction To Planets" Background="LightCoral">
+                <!-- Creating StackPanel -->
                 <StackPanel>
-
-                    <TextBlock x:ConnectionId='21' x:Name="textBlock1" HorizontalAlignment="Center" FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="DarkBlue" TextWrapping="Wrap"
-                               Text="
+                    <!-- Creating a textblock with modifications -->
+                    <TextBlock x:ConnectionId='34' x:Name="textBlock1" HorizontalAlignment="Center" FontStyle="Oblique" FontSize="25"
+                               TextAlignment="Center" Foreground="DarkBlue" TextWrapping="Wrap" Text="
                                
                                
                                Hello Kids, Welcome To Our Online Teaching About Our Wonderful Planets That We Are Surrounded By...Lets Have A Look, Shall We?" Height="200" Width="600"/>
+                    <!-- Creating another StackPanel with the colour seperation of white -->
                     <StackPanel Background="White" Height="300">
-                        <Image x:ConnectionId='23' x:Name="image1" Source="/images/Children-Education.jpg" Height="300" Width="500" HorizontalAlignment="Center"/>
+                        <!-- Inserting image and aligned in the center -->
+                        <Image x:ConnectionId='36' x:Name="image1" Source="/images/Children-Education.jpg" Height="300" Width="500" HorizontalAlignment="Center"/>
+                        <!-- Closing StackPanel -->
                     </StackPanel>
+                    <!-- Creating StackPanel to hold a button -->
                     <StackPanel Background="AntiqueWhite" Height="100">
-                        <Button x:ConnectionId='22' x:Name="button1" Content="Review" HorizontalAlignment="Center" Background="Coral"
-                            VerticalAlignment="Center" Width="200" Height="100" Foreground="DarkBlue"                       />
+                        <!-- Button creation to for click event -->
+                        <Button x:ConnectionId='35' x:Name="button1" Content="Review" HorizontalAlignment="Center" Background="Coral"
+                                VerticalAlignment="Center" Width="200" Height="100" Foreground="DarkBlue"                       />
+                        <!-- Closing StackPanel -->
                     </StackPanel>
-
+                    <!-- Closing StackPanel -->
                 </StackPanel>
+                <!-- Closing PivotItem -->
             </PivotItem>
-
+            <!-- Opening PivotItem and calling it Earth -->
             <PivotItem Header="Earth" Background="LightBlue">
+                <!-- Creating StackPanel of colour DarkBlue -->
                 <StackPanel VerticalAlignment="Top" Background="DarkBlue">
-
-                    <TextBlock x:ConnectionId='15' x:Name="textBlock2" HorizontalAlignment="Left" FontStyle="Oblique" FontSize="25" TextAlignment="Left" Foreground="Wheat" TextWrapping="Wrap"
+                    <!-- Creating Textblock within StackPanel-->
+                    <TextBlock x:ConnectionId='28' x:Name="textBlock2" HorizontalAlignment="Left" FontStyle="Oblique" FontSize="25"
+                               TextAlignment="Left" Foreground="Wheat" TextWrapping="Wrap"
                                Text="1. The Earth's roatation is gradualy slowing.
-                                   6. Fromed 4.54 billion years ago."
-                               VerticalAlignment="Top"/>
+                                   6. Fromed 4.54 billion years ago." VerticalAlignment="Top"/>
+                    <!-- Opening StackPanel -->
                     <StackPanel VerticalAlignment="Top" Background="LightBlue">
-                        <TextBlock x:ConnectionId='20' x:Name="textBlock3" HorizontalAlignment="Left" FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="DarkGray" TextWrapping="Wrap"
-                               Text="2. There are 7.6 billion people on the earth.
-                                    7. The Earth has a powerful magnetic field."
-                               VerticalAlignment="Top"/>
+                        <TextBlock x:ConnectionId='33' x:Name="textBlock3" HorizontalAlignment="Left" FontStyle="Oblique" FontSize="25"
+                                   TextAlignment="Center" Foreground="DarkGray" TextWrapping="Wrap" VerticalAlignment="Top"
+                                   Text="2. There are 7.6 billion people on the earth.
+                                    7. The Earth has a powerful magnetic field."/>
+                        <!-- Closing StackPanel -->
                     </StackPanel>
+                    <!-- Opening StackPanel -->
                     <StackPanel VerticalAlignment="Top" Background="DarkBlue">
-                        <TextBlock x:ConnectionId='19' x:Name="textBlock4" HorizontalAlignment="Left" FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="Wheat" TextWrapping="Wrap"
-                               Text="3. Once believed to be the centre of the universe.
-                         8. The Earth is the densest planet in the Solar System."
-                               VerticalAlignment="Top"/>
+                        <TextBlock x:ConnectionId='32' x:Name="textBlock4" HorizontalAlignment="Left" FontStyle="Oblique" FontSize="25"
+                                   TextAlignment="Center" Foreground="Wheat" VerticalAlignment="Top" TextWrapping="Wrap" Text="3. Once believed to be the centre of the universe.
+                         8. The Earth is the densest planet in the Solar System."/>
+                        <!-- Closing StackPanel -->
                     </StackPanel>
+                    <!-- Opening StackPanel -->
                     <StackPanel VerticalAlignment="Top" Background="LightBlue">
-                        <TextBlock x:ConnectionId='18' x:Name="textBlock5" HorizontalAlignment="Left"
-                                   FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="DarkGray" TextWrapping="Wrap"
-                               Text="4. Earth is the only planet not named after God.
-                            9. There is only one natural satellite of the planet Earth."
-                               VerticalAlignment="Top"/>
+                        <TextBlock x:ConnectionId='31' x:Name="textBlock5" HorizontalAlignment="Left" FontStyle="Oblique" FontSize="25"
+                                   TextAlignment="Center" Foreground="DarkGray" VerticalAlignment="Top" TextWrapping="Wrap"
+                                   Text="4. Earth is the only planet not named after God.
+                            9. There is only one natural satellite of the planet Earth."/>
+                        <!-- Closing StackPanel -->
                     </StackPanel>
+                    <!-- Opening StackPanel -->
                     <StackPanel VerticalAlignment="Top" Background="DarkBlue">
-                        <TextBlock x:ConnectionId='17' x:Name="textBlock6" HorizontalAlignment="Left" FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="Wheat" TextWrapping="Wrap"
-                               Text="5. The Earth is the third planet from the sun.
-                               10. Earth is the largest of the terrestrial planets."
-                               VerticalAlignment="Top"/>
+                        <TextBlock x:ConnectionId='30' x:Name="textBlock6" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                                   FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="Wheat" 
+                                   TextWrapping="Wrap" Text="5. The Earth is the third planet from the sun.
+                               10. Earth is the largest of the terrestrial planets."/>
+                        <!-- Closing StackPanel -->
                     </StackPanel>
-
+                    <!-- Opening StackPanel -->
                     <StackPanel>
-                        <Image x:ConnectionId='16' x:Name="image2" Source="/images/Earth_Western_Hemisphere_transparent_background.png" Margin="3,0,0,66"/>
+                        <Image x:ConnectionId='29' x:Name="image2" Source="/images/Earth_Western_Hemisphere_transparent_background.png" Margin="3,0,0,66"/>
+                        <!-- Closing StackPanel -->
                     </StackPanel>
-
+                    <!-- Closing StackPanel -->
                 </StackPanel>
-
             </PivotItem>
-
             <PivotItem Header="Jupiter" Background="Brown">
+                <!-- Opening StackPanel -->
                 <StackPanel>
+                    <!-- Opening StackPanel -->
                     <StackPanel Background="Beige" Height="500">
-                        <Image x:ConnectionId='14' x:Name="image3" Source="/images/planet-trans-jupiter.png" Height="500" Width="500" HorizontalAlignment="Center"/>
+                        <Image x:ConnectionId='27' x:Name="image3" Source="/images/planet-trans-jupiter.png" Height="500" Width="500" HorizontalAlignment="Center"/>
+                        <!-- Closing StackPanel -->
                     </StackPanel>
+                    <!-- Opening StackPanel -->
                     <StackPanel>
-
-                        <TextBlock x:ConnectionId='13' x:Name="textBlock1456" HorizontalAlignment="Center" FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="Beige" TextWrapping="Wrap"
-                               Text="Jupiter is the fifth planet out from the Sun. It's two and a half times more massive than all the other planets in the solar system combined.
-                                   It is made primarily of gases and is therefore known as a *Gas Giant*" Height="200" Width="600"/>
+                        <TextBlock x:ConnectionId='26' x:Name="textBlock7" HorizontalAlignment="Center" FontStyle="Oblique"
+                                   FontSize="25" TextAlignment="Center" Foreground="Beige" TextWrapping="Wrap" Height="200" Width="600"
+                                   Text="Jupiter is the fifth planet out from the Sun. It's two and a half times more massive than all the other planets in the solar system combined.
+                                   It is made primarily of gases and is therefore known as a *Gas Giant*"/>
+                        <!-- Closing StackPanel -->
                     </StackPanel>
-
-
+                    <!-- Closing StackPanel -->
                 </StackPanel>
             </PivotItem>
-
             <PivotItem Header="Neptune">
+                <!-- Opening StackPanel -->
                 <StackPanel>
-
+                    <!-- Opening StackPanel -->
                     <StackPanel Background="WhiteSmoke">
-
-                        <TextBlock x:ConnectionId='12' x:Name="textBlock14556" HorizontalAlignment="Center" FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="Black" TextWrapping="Wrap"
+                        <TextBlock x:ConnectionId='25' x:Name="textBlock8" HorizontalAlignment="Center" FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="Black" TextWrapping="Wrap"
                                Text="Neptune is the 8th planet from the sun.
                                    It takes Neptune 164.8 Earth years to orbit the Sun.
                                    Neptune was discovered by Jean Joseph Le Verrier.
                                    The inner core of the planet is made of rock.
                                    The atmosphere of Neptune is made of hydrogen and helium, with some methane.
                                    " Height="200" Width="600"/>
+                        <!-- Closing StackPanel -->
                     </StackPanel>
                     <StackPanel Background="Navy" Height="300">
                         <Grid Height="400" Width="300" Margin="0,-50,0,0">
-                            <Image x:ConnectionId='11' x:Name="image5" Source="/images/neptune-transparent.png" Width="400" Height="400" HorizontalAlignment="Center"/>
+                            <Image x:ConnectionId='24' x:Name="image5" Source="/images/neptune-transparent.png" Width="400" Height="400" HorizontalAlignment="Center"/>
                         </Grid>
+                        <!-- Closing StackPanel -->
                     </StackPanel>
-
+                    <!-- Opening StackPanel -->
                     <StackPanel Height="600" Background="SkyBlue">
-                        <TextBlock x:ConnectionId='10' x:Name="textBlock145556" HorizontalAlignment="Center" FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="Black" TextWrapping="Wrap"
+                        <!-- Creating Textblock -->
+                        <TextBlock x:ConnectionId='23' x:Name="textBlock9" HorizontalAlignment="Center" FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="Black" TextWrapping="Wrap"
                                Text="Neptune spins on its axis very rapidly.
                                    Neptune was not known to the ancients.
                                    Neptune is the smallest of the ice giants.
                                    Only one spacecraft has flown by Neptune.
                                    Neptune has 14 moons." Height="200" Width="600"/>
+                        <!-- Closing StackPanel -->
                     </StackPanel>
-
+                    <!-- Closing StackPanel -->
                 </StackPanel>
+                <!-- Closing PivotItem -->
             </PivotItem>
-
-
-
+            <!-- Opening PivotItem and naming it Mars -->
             <PivotItem Header="Mars" Background="Orange">
+                <!-- Opening StackPanel -->
                 <StackPanel>
+                    <!-- Opening StackPanel -->
                     <StackPanel Background="Beige" Height="500">
+                        <!-- Creating grids within StackPanels -->
                         <Grid Height="500">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="40*"/>
                                 <ColumnDefinition Width="30*"/>
                             </Grid.ColumnDefinitions>
-                            <Image x:ConnectionId='8' Grid.Column="1" x:Name="image369" Source="/images/mars.png" Height="500" Width="500" HorizontalAlignment="Center" />
+                            <Image x:ConnectionId='21' Grid.Column="1" x:Name="image10" Source="/images/mars.png" Height="500"
+                                   Width="500" HorizontalAlignment="Center" />
                             <StackPanel Background="Orange">
-                                <TextBlock x:ConnectionId='9' Grid.Column="0"  x:Name="textBlock146" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontStyle="Oblique" FontSize="25" TextAlignment="Left" Foreground="Black" TextWrapping="Wrap"
-                               Text="Mars is the 4th planet from the sun.
+                                <!-- Creating textblock within StackPanel-->
+                                    <TextBlock x:ConnectionId='22' Grid.Column="0"  x:Name="textBlock11" HorizontalAlignment="Stretch"
+                                           VerticalAlignment="Stretch" FontStyle="Oblique" FontSize="25"
+                                           TextAlignment="Left" Foreground="Black" TextWrapping="Wrap"  Height="500" Margin="0,0,196,0"
+                                           Text="Mars is the 4th planet from the sun.
                                        
                                            
                                          It is the second smallest planet in the solar system.
@@ -149,34 +175,22 @@
                                            Mars has the largest dust storms in the solar system.
                                    
                                            
-                                           Pieces of Mars have fallen to Earth.
-                                   " Height="500" Margin="0,0,196,0"/>
+                                           Pieces of Mars have fallen to Earth."/>
                             </StackPanel>
-
                         </Grid>
                     </StackPanel>
                     <StackPanel>
-
-
-
-
                         <StackPanel Background="Beige" Height="500">
-
-                            <TextBlock x:ConnectionId='6' x:Name="textBlock156" HorizontalAlignment="Left" FontStyle="Italic" FontSize="30" TextAlignment="Left" Foreground="Black" TextWrapping="Wrap"
-                               Text="There are signs of liquid water on Mars.
-                                   " Height="70" Width="548"/>
-                            <TextBlock x:ConnectionId='7' x:Name="textBlock136" HorizontalAlignment="Left" FontStyle="Normal" FontSize="25" TextAlignment="Left" Foreground="Brown" TextWrapping="Wrap"
-                               Text="For years Mars has been known to have water in the form of ice. The first signs of trickling water are dark stripes or stains on crater wall and cliffs seen in satellite images. Due to Mars' atmosphere this water would have to be salty to prevent it from freezing or vaporising.                                    " Height="200" Width="1248"                                                 />
+                            <TextBlock x:ConnectionId='19' x:Name="textBlock12" HorizontalAlignment="Left" FontStyle="Italic"
+                                       FontSize="30" TextAlignment="Left" Foreground="Black" TextWrapping="Wrap"
+                                       Text="There are signs of liquid water on Mars." Height="70" Width="548"/>
+                            <TextBlock x:ConnectionId='20' x:Name="textBlock13" HorizontalAlignment="Left" FontStyle="Normal" 
+                                       FontSize="25" TextAlignment="Left" Foreground="Brown" TextWrapping="Wrap"
+                                       Text="For years Mars has been known to have water in the form of ice. The first signs of trickling water are dark stripes or stains on crater wall and cliffs seen in satellite images. Due to Mars' atmosphere this water would have to be salty to prevent it from freezing or vaporising." Height="200" Width="1248"                                                 />
                         </StackPanel>
                     </StackPanel>
-
-
                 </StackPanel>
             </PivotItem>
-
-
-
-
             <PivotItem Header="Mercury" Background="Indigo">
                 <StackPanel>
                     <StackPanel Background="MistyRose" Height="500">
@@ -185,10 +199,13 @@
                                 <ColumnDefinition Width="40*"/>
                                 <ColumnDefinition Width="30*"/>
                             </Grid.ColumnDefinitions>
-                            <Image x:ConnectionId='4' Grid.Column="1" x:Name="image389" Source="/images/mercury.png" Height="500" Width="500" HorizontalAlignment="Center" />
+                            <Image x:ConnectionId='17' Grid.Column="1" x:Name="image14" Source="/images/mercury.png" Height="500"
+                                   Width="500" HorizontalAlignment="Center"/>
                             <StackPanel Background="Indigo">
-                                <TextBlock x:ConnectionId='5' Grid.Column="0"  x:Name="textBlock147" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontStyle="Oblique" FontSize="25" TextAlignment="Left" Foreground="MistyRose" TextWrapping="Wrap"
-                               Text="Mercury does not have any moons or rings.
+                                <TextBlock x:ConnectionId='18' Grid.Column="0"  x:Name="textBlock15" HorizontalAlignment="Stretch" 
+                                           VerticalAlignment="Stretch" FontStyle="Oblique" FontSize="25" 
+                                           TextAlignment="Left" Height="500" Margin="0,0,196,0" Foreground="MistyRose" TextWrapping="Wrap"
+                                           Text="Mercury does not have any moons or rings.
                                        
                                            
                                          Your weight on Mercury would be 38% of your weight on Earth.
@@ -206,179 +223,168 @@
                                            It's not known who discovered Mercury.
                                    
                                            
-                                           Pieces of Mars have fallen to Earth.
-                                   " Height="500" Margin="0,0,196,0"/>
+                                           Pieces of Mars have fallen to Earth."/>
                             </StackPanel>
-
                         </Grid>
                     </StackPanel>
                     <StackPanel>
-
-
-
-
                         <StackPanel Background="Beige" Height="500">
-
-                            <TextBlock x:ConnectionId='2' x:Name="textBlock456" HorizontalAlignment="Left" FontStyle="Italic" FontSize="30" TextAlignment="Left" Foreground="Black" TextWrapping="Wrap"
-                               Text="MERCURY FACTS
-                                   " Height="70" Width="548"/>
-                            <TextBlock x:ConnectionId='3' x:Name="textBlock636" HorizontalAlignment="Left" FontStyle="Normal" FontSize="20" TextAlignment="Left" Foreground="Brown" TextWrapping="Wrap"
-                               Text="Mercury is the closest planet to the Sun and due to its proximity it is not easily seen except during twilight. For every two orbits of the Sun, Mercury completes three rotations about its axis and up until 1965 it was thought that the same side of Mercury constantly faced the Sun. Thirteen times a century Mercury can be observed from the Earth passing across the face of the Sun in an event called a transit, the next will occur on the 9th May 2016." Height="200" Width="1248"                                                 />
+                            <TextBlock x:ConnectionId='15' x:Name="textBlock17" HorizontalAlignment="Left" FontStyle="Italic"
+                                       FontSize="30" TextAlignment="Left" Height="70" Width="548" Foreground="Black" TextWrapping="Wrap"
+                                       Text="MERCURY FACTS"/>
+                            <TextBlock x:ConnectionId='16' x:Name="textBlock18" HorizontalAlignment="Left" FontStyle="Normal"
+                                       FontSize="20" TextAlignment="Left" Foreground="Brown" TextWrapping="Wrap"
+                                       Height="200" Width="1248"                                                 
+                                       Text="Mercury is the closest planet to the Sun and due to its proximity it is not easily seen except during twilight. For every two orbits of the Sun, Mercury completes three rotations about its axis and up until 1965 it was thought that the same side of Mercury constantly faced the Sun. Thirteen times a century Mercury can be observed from the Earth passing across the face of the Sun in an event called a transit, the next will occur on the 9th May 2016."/>
                         </StackPanel>
                     </StackPanel>
-
-
                 </StackPanel>
             </PivotItem>
-        </Pivot>
-    </Grid>
-</Page>
-
-
-
-
-
-
-
-<!--PivotItem Header="Earth" Background="AliceBlue">
-                    <Grid>
-                        <StackPanel>
-                            <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" FontStyle="Oblique" FontSize="24" 
-                                   Foreground="Black" Margin="10,10,0,0" TextWrapping="Wrap"
-                                   Text="1. The Earth's roatation is gradualy slowing.
-                                         2. There are 7.6 billion people on the earth"
-                                   VerticalAlignment="Top" Height="272" Width="361"/>
-                        </StackPanel>
-                        <Button x:Name="btnHome2"
-                
-                Width="173"
-                HorizontalAlignment="Left" 
-                VerticalAlignment="Bottom" Margin="89,0,0,10" 
-                Content="Exit Application" Tapped="btnHome_Tapped" Height="32" RenderTransformOrigin="0.5,0.656" Grid.Column="1"
-                            Foreground="AliceBlue" Background="Blue"/>
-                        <StackPanel Grid.ColumnSpan="2" Margin="0,0,10,0">
-
-                            <Image x:Name="image2" Source="/images/Earth_Western_Hemisphere_transparent_background.png" Margin="3,0,0,66"/>
-
-                            <Button x:Name="button2" Content="Review" Grid.Column="1" HorizontalAlignment="Left" Margin="305,270,0,0" Background="Black"
-                            VerticalAlignment="Top" Width="174" Height="32" Foreground="Blue" Tapped="button_Tapped"/>
-
-
-                        </StackPanel>
-
-                
-
-                </PivotItem>
-
-                
-
-                
-
-                
-                <PivotItem Header="" Background="Indigo"></PivotItem>
-                <PivotItem Header="Saturn" Background="Beige"/>
-                <PivotItem Header="Venus" Background="Gold"/>
-                <PivotItem Header="Uranus" Background="LightBlue"/>
-        </Pivot-->
-
-
-<!--PivotItem Header="Jupiter" Background="Brown">
-                <Button x:Name="btnHome3"
-                Background="Pink"
-                Width="200"
-                HorizontalAlignment="Center" 
-                VerticalAlignment="Bottom" Margin="0,0,0,20" 
-                Content="Exit Application" Tapped="btnHome_Tapped"/>
-            </PivotItem>
-
-            <PivotItem Header="Neptune" Background="Blue">
-                <Button x:Name="btnHome4"
-                Background="Pink"
-                Width="200"
-                HorizontalAlignment="Center" 
-                VerticalAlignment="Bottom" Margin="0,0,0,20" 
-                Content="Exit Application" Tapped="btnHome_Tapped"/>
-            </PivotItem>
-
-            <PivotItem Header="Mars" Background="Orange">
-                <Button x:Name="btnHome5"
-                Background="Pink"
-                Width="200"
-                HorizontalAlignment="Center" 
-                VerticalAlignment="Bottom" Margin="0,0,0,20" 
-                Content="Exit Application" Tapped="btnHome_Tapped"/>
-            </PivotItem>
-
-            <PivotItem Header="Mercury" Background="Gray">
-                <Button x:Name="btnHome6"
-                Background="Pink"
-                Width="200"
-                HorizontalAlignment="Center" 
-                VerticalAlignment="Bottom" Margin="0,0,0,20" 
-                Content="Exit Application" Tapped="btnHome_Tapped"/>
-            </PivotItem>
-
             <PivotItem Header="Saturn" Background="Beige">
-                <Button x:Name="btnHome7"
-                Background="Pink"
-                Width="200"
-                HorizontalAlignment="Center" 
-                VerticalAlignment="Bottom" Margin="0,0,0,20" 
-                Content="Exit Application" Tapped="btnHome_Tapped"/>
+                <StackPanel>
+                    <StackPanel Background="WhiteSmoke" Height="500" Opacity="0.3">
+                        <Image x:ConnectionId='14' x:Name="image19" Source="/images/saturn.jpg" Height="500" Width="865" 
+                               HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel>
+                        <TextBlock x:ConnectionId='13' x:Name="textBlock20" HorizontalAlignment="Stretch" FontStyle="Oblique" 
+                                   FontSize="20" Foreground="Black" TextWrapping="Wrap" TextAlignment="Center"
+                                   Height="200" Margin="342,0,333,0"
+                                   Text="Saturn is the sixth planet from the Sun and the most distant that can be seen with the naked eye. Saturn is the second largest planet and is best known for its fabulous ring system that was first observed in 1610 by the astronomer Galileo Galilei. Like Jupiter, Saturn is a gas giant and is composed of similar gasses including hydrogen, helium and methane."/>
+                    </StackPanel>
+                </StackPanel>
             </PivotItem>
-
-            <PivotItem Header="Venus" Background="Gold">
-                <Button x:Name="btnHome8"
-                Background="Pink"
-                Width="200"
-                HorizontalAlignment="Center" 
-                VerticalAlignment="Bottom" Margin="0,0,0,20" 
-                Content="Exit Application" Tapped="btnHome_Tapped"/>
+            <PivotItem Header="Venus">
+                <StackPanel>
+                    <StackPanel Background="Gold">
+                        <TextBlock x:ConnectionId='12' x:Name="textBlock21" HorizontalAlignment="Center" FontStyle="Oblique"
+                                   FontSize="25" TextAlignment="Center" Foreground="Black" TextWrapping="Wrap"
+                                   Height="200" Width="600"
+                                   Text="Venus is the 2nd planet from the sun.
+                                   It is the second brightest object in the night sky after the Moon.
+                                   
+                                   Named after the Roman goddess of love and beauty.
+                                   Venus does not have any moons or rings.
+                                   The surface of the planet is obscured by an opaque layer of clouds made up of sulphuric acid."/>
+                    </StackPanel>
+                    <StackPanel Background="LightGoldenrodYellow" Height="400">
+                        <Grid Height="400" Width="300" Margin="0,-50,0,0">
+                            <Image x:ConnectionId='11' x:Name="image22" Source="/images/planet-trans-jupiter.png" Width="400" Height="400"
+                                   HorizontalAlignment="Center" Margin="-50,51,-50,-51"/>
+                        </Grid>
+                    </StackPanel>
+                    <StackPanel Height="600" Background="Goldenrod">
+                        <TextBlock x:ConnectionId='10' x:Name="textBlock23" HorizontalAlignment="Center" FontStyle="Oblique"
+                                   FontSize="20" TextAlignment="Center" Foreground="Black" TextWrapping="Wrap"
+                                   Height="200" Width="600"
+                                   Text="Venus is nearly as big as the Earth with a diameter of 12,104 km.
+                                   
+                                   Venus is thought to be made up of a central iron core, rocky mantle and silicate crust."/>
+                    </StackPanel>
+                </StackPanel>
             </PivotItem>
-
-            <PivotItem Header="Uranus" Background="LightBlue">
-                <Button x:Name="btnHome9"
-                Background="Pink"
-                Width="200"
-                HorizontalAlignment="Center" 
-                VerticalAlignment="Bottom" Margin="0,0,0,20" 
-                Content="Exit Application" Tapped="btnHome_Tapped"/>
+            <PivotItem Header="Uranus" Background="Orange">
+                <StackPanel>
+                    <StackPanel Background="LightBlue" Height="500">
+                        <Grid Height="500">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="40*"/>
+                                <ColumnDefinition Width="30*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image x:ConnectionId='8' Grid.Column="1" x:Name="image359" Source="/images/Uranus2-transparent.png"
+                                   Height="500" Width="500" HorizontalAlignment="Center" />
+                            <StackPanel Background="NavajoWhite">
+                                <TextBlock x:ConnectionId='9' Grid.Column="0"  x:Name="textBlock24" HorizontalAlignment="Stretch"
+                                           VerticalAlignment="Stretch" FontStyle="Oblique" FontSize="25"
+                                           TextAlignment="Left" Foreground="Black" TextWrapping="Wrap"
+                                           Height="500" Margin="0,0,196,0"
+                                           Text="Uranus was officially discovered by Sir William Herschel in 1781.
+                                       
+                                           
+                                         Uranus turns on its axis once every 17 hours, 14 minutes.
+                                   
+                                           
+                                         Uranus makes one trip around the Sun every 84 Earth years. 
+                                   
+                                           
+                                         Uranus is often referred to as an *ice giant* planet.
+                                   
+                                           
+                                         Uranus has two sets of very thin dark coloured rings.
+                                   
+                                           
+                                         Only one spacecraft has flown by Uranus.
+                                   
+                                           
+                                         Uranus is tipped over on its side with an axial tilt of 98 degrees.
+                                   
+                                           
+                                         While being visible to the naked eye, it was not recognised as a planet due to its dimness and slow orbit."/>
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+                    <StackPanel>
+                        <StackPanel Background="BurlyWood" Height="500">
+                            <TextBlock x:ConnectionId='6' x:Name="textBlock25" HorizontalAlignment="Left" FontStyle="Italic" 
+                                       FontSize="30" TextAlignment="Left" Foreground="Black" TextWrapping="Wrap"
+                                       Text="Uranus hits the coldest temperatures of any planet:"
+                                       Height="97" Width="548"/>
+                            <TextBlock x:ConnectionId='7' x:Name="textBlock26" HorizontalAlignment="Left" FontStyle="Normal"
+                                       FontSize="22" TextAlignment="Left" Foreground="Brown" TextWrapping="Wrap"
+                                       Height="113" Width="1248"                                                 
+                                       Text="With minimum atmospheric temperature of -224°C Uranus is nearly coldest planet in the solar system. While Neptune doesn't get as cold as Uranus it is on average colder. The upper atmosphere of Uranus is covered by a methane haze which hides the storms that take place in the cloud decks."/>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
             </PivotItem>
-        </>
+            <PivotItem Header="Reviews" Background="Orange">
+                <StackPanel>
+                    <StackPanel Background="Beige" Height="500">
+                        <Grid Height="500">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="40*"/>
+                                <ColumnDefinition Width="30*"/>
+                            </Grid.ColumnDefinitions>
+                            <Button x:ConnectionId='4' Grid.Column="1" x:Name="button27" Content="Review Page" FontSize="80"
+                                    HorizontalAlignment="Center" Background="YellowGreen" VerticalAlignment="Center"
+                                    Width="813" Height="500" Foreground="Purple"                       
+                                    FontStyle="Italic"/>
+                            <StackPanel Background="Orange">
+                                <!-- Image inside StackPanel -->
+                                <Image x:ConnectionId='5' x:Name="image28" Source="/images/Planets2013.jpg" Height="643.4" Width="1191.43"
+                                       HorizontalAlignment="Center" Margin="-44.571,0,-63.859,0"
+                                       RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False"
+                                       d:LayoutRounding="Auto" >
+                                    <Image.RenderTransform>
+                                        <CompositeTransform SkewX="-1.369" TranslateX="-5.976"/>
+                                    </Image.RenderTransform>
+                                </Image>
+                                <!-- Closing StackPanel -->
+                            </StackPanel>
+                        </Grid>
+                        <!-- Closing StackPanel -->
+                    </StackPanel>
+                    <StackPanel>
+                        <StackPanel Background="LavenderBlush" Height="500">
+                            <TextBlock x:ConnectionId='2' x:Name="textBlock29" HorizontalAlignment="Left" FontStyle="Italic"
+                                       FontSize="40" TextAlignment="Left" Foreground="Black" TextWrapping="Wrap"
+                                       Text="Feedback:" Height="70" Width="548"/>
+                            <TextBlock x:ConnectionId='3' x:Name="textBlock30" HorizontalAlignment="Left" FontStyle="Normal"
+                                       FontSize="30" TextAlignment="Left" Foreground="Red" TextWrapping="Wrap"
+                                       Height="200" Width="1248"                                                 
+                                       Text="We would love some feedback from our viewrs and seek your opinions and further advice from you lot. So what are you waiting for...HIT THE ^REVIEW TAB"/>
+                            <!-- Closing StackPanel -->
+                        </StackPanel>
+                        <!-- Closing StackPanel -->
+                    </StackPanel>
+                    <!-- Closing StackPanel -->
+                </StackPanel>
+                <!-- Closing PivotItem -->
+            </PivotItem>
+            <!-- Closing Pivot -->
+        </Pivot>
+        <!-- Closing Grid -->
     </Grid>
-</Page-->
-
-
-
-
-
-
-
-
-<!--Grid>
-                    <TextBlock TextWrapping="Wrap"
-                            VerticalAlignment="Top"
-                            HorizontalAlignment="Left"
-                               TextAlignment="Left">
-                        Earth is the third planet from the sun and the fifth largest in the solar system. 
-                        Just slightly larger than nearby Venus, Earth is the biggest of the terrestrial planets.
-                        Our home planet is the only planet in our solar system known to harbor living things.
-                        The name Earth is at least 1,000 years old. All of the planets, except for Earth, were named after Greek and Roman gods and goddesses. 
-                        However, the name Earth is an English/German word, which simply means the ground.
-                    </TextBlock>
-                    <Image Source="Images/earth.jpg" RenderTransformOrigin="0.5,0.787" Margin="-73,464,97,10"/>
-                </-->
-
-
-            
-            
-
-            
-           
-
-            
-        
-
-    
-
+    <!-- Closing page -->
+</Page>
 

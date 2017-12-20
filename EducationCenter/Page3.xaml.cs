@@ -13,21 +13,15 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
+
 namespace EducationCenter
 {
-    // Creating buttons and click / tap functions
-    public sealed partial class Page2 : Page
+  
+    public sealed partial class Page3 : Page
     {
-        public Page2()
+        public Page3()
         {
             this.InitializeComponent();
         }
-
-        private void button_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(Page3), null);
-        }
-
-        
     }
 }

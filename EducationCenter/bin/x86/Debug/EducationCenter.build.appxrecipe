@@ -343,6 +343,12 @@
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\earth2.jpg">
       <PackagePath>Images\earth2.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\Planets2013.jpg">
+      <PackagePath>Images\Planets2013.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\saturn.jpg">
+      <PackagePath>Images\saturn.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\download %281%29.png">
       <PackagePath>Images\download %281%29.png</PackagePath>
     </AppxPackagedFile>
@@ -363,6 +369,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\planet-trans-jupiter.png">
       <PackagePath>Images\planet-trans-jupiter.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\Uranus2-transparent.png">
+      <PackagePath>Images\Uranus2-transparent.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>

@@ -402,3 +402,8 @@ C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\obj\x86\Debug\q
 C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\obj\x86\Debug\Page3.g.i.cs
+C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\obj\x86\Debug\Page3.g.cs
+C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\obj\x86\Debug\Page3.xaml
+C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\obj\x86\Debug\Page3.xbf
+C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\Page3.xbf

@@ -16,9 +16,7 @@ using Windows.UI.Xaml.Navigation;
 
 namespace EducationCenter
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
+    // Creating buttons and click / tap functions
     public sealed partial class MainPage : Page
     {
         public MainPage()
@@ -27,6 +25,7 @@ namespace EducationCenter
         }
         private void btnChange_Tapped(object sender, RoutedEventArgs e)
         {
+            // Creating button to enter application
             this.Frame.Navigate(typeof(Page1), null);
         }
     }

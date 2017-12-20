@@ -132,19 +132,21 @@ namespace EducationCenter.EducationCenter_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[5];
+            _typeNameTable = new string[6];
             _typeNameTable[0] = "EducationCenter.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "EducationCenter.Page1";
             _typeNameTable[4] = "EducationCenter.Page2";
+            _typeNameTable[5] = "EducationCenter.Page3";
 
-            _typeTable = new global::System.Type[5];
+            _typeTable = new global::System.Type[6];
             _typeTable[0] = typeof(global::EducationCenter.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::EducationCenter.Page1);
             _typeTable[4] = typeof(global::EducationCenter.Page2);
+            _typeTable[5] = typeof(global::EducationCenter.Page3);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -182,6 +184,7 @@ namespace EducationCenter.EducationCenter_XamlTypeInfo
         private object Activate_0_MainPage() { return new global::EducationCenter.MainPage(); }
         private object Activate_3_Page1() { return new global::EducationCenter.Page1(); }
         private object Activate_4_Page2() { return new global::EducationCenter.Page2(); }
+        private object Activate_5_Page3() { return new global::EducationCenter.Page3(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -218,6 +221,13 @@ namespace EducationCenter.EducationCenter_XamlTypeInfo
             case 4:   //  EducationCenter.Page2
                 userType = new global::EducationCenter.EducationCenter_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_4_Page2;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 5:   //  EducationCenter.Page3
+                userType = new global::EducationCenter.EducationCenter_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_5_Page3;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

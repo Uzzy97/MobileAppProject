@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-16T14:14:28.471</Modified>
+      <Modified>2017-12-20T10:48:21.987</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\EducationCenter.exe">
       <PackagePath>entrypoint\EducationCenter.exe</PackagePath>
-      <Modified>2017-12-16T14:14:26.658</Modified>
+      <Modified>2017-12-20T10:48:17.763</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usman\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -460,6 +460,14 @@
       <PackagePath>Images\earth2.jpg</PackagePath>
       <Modified>2017-12-03T22:57:33.771</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\Planets2013.jpg">
+      <PackagePath>Images\Planets2013.jpg</PackagePath>
+      <Modified>2017-12-19T19:26:34.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\saturn.jpg">
+      <PackagePath>Images\saturn.jpg</PackagePath>
+      <Modified>2017-12-18T22:07:09.648</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\download %281%29.png">
       <PackagePath>Images\download %281%29.png</PackagePath>
       <Modified>2017-12-03T22:57:33.756</Modified>
@@ -487,6 +495,10 @@
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\planet-trans-jupiter.png">
       <PackagePath>Images\planet-trans-jupiter.png</PackagePath>
       <Modified>2017-12-03T22:57:33.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Images\Uranus2-transparent.png">
+      <PackagePath>Images\Uranus2-transparent.png</PackagePath>
+      <Modified>2017-12-19T00:45:27.098</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -528,7 +540,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\EducationCenter.xr.xml">
       <PackagePath>EducationCenter.xr.xml</PackagePath>
-      <Modified>2017-12-07T13:32:09.130</Modified>
+      <Modified>2017-12-19T23:02:18.873</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -537,11 +549,11 @@
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-16T14:14:27.892</Modified>
+      <Modified>2017-12-20T10:48:21.018</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usman\Documents\GitHub\MobileAppProject\EducationCenter\bin\x86\Debug\Core\EducationCenter.exe">
       <PackagePath>EducationCenter.exe</PackagePath>
-      <Modified>2017-12-16T14:14:28.458</Modified>
+      <Modified>2017-12-20T10:48:21.973</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
