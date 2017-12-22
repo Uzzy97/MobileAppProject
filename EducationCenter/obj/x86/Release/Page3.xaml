@@ -1,0 +1,62 @@
+﻿<!--Opening Page-->
+<Page
+    x:Class="EducationCenter.Page3"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EducationCenter"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <!--Creating a Grid-->
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <!--Creating stackpanel within a Grid-->
+        <StackPanel>
+            <!--Creating a stackpanel within a stackpanel-->
+            <StackPanel Background="Black" Height="200">
+                <!--Creating a Textblock within a stackpanel-->
+                <TextBlock x:ConnectionId='3' x:Name="textBlock14556" HorizontalAlignment="Center" 
+                           FontStyle="Oblique" FontSize="100" TextAlignment="Center" 
+                           Foreground="WhiteSmoke" TextWrapping="Wrap" Text="Reviews" Height="200" Width="600"/>
+                <!--Closing Stackpanel-->
+            </StackPanel>
+            <!--Openign Stackpanel with beige background-->
+            <StackPanel Background="Beige" Height="550">
+                <!--Creating Grid within StackPanel-->
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="40*"/>
+                        <ColumnDefinition Width="30*"/>
+                    </Grid.ColumnDefinitions>
+                    <!--Opening Stackpanel-->
+                    <StackPanel>
+                        <!--Creating image in stackpanel-->
+                        <Image x:ConnectionId='2' x:Name="image358" Source="/images/Planets2013.jpg" Height="649.4" 
+                               Width="1237.004" HorizontalAlignment="Center" Margin="-58.786,0,-81.218,0" 
+                               RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" >
+                            <Image.RenderTransform>
+                                <CompositeTransform SkewX="-1.369" TranslateX="-5.976"/>
+                            </Image.RenderTransform>
+                            <!--Closing image tag-->
+                        </Image>
+                        <!--Closing stackpanel tag-->
+                    </StackPanel>
+                    <!--Creating Textblock-->
+                    <TextBlock x:ConnectionId='1' Grid.Column="1" x:Name="textBlock1456" HorizontalAlignment="Center" FontWeight="ExtraBlack"
+                               FontStyle="Oblique" FontSize="25" TextAlignment="Center" Foreground="Black"
+                               TextWrapping="Wrap" Width="727" Margin="86,212,10,383" Text= "Congratulations...
+                               
+                               
+                               Your Feedback Has Been
+                               
+                               Submitted"/>
+                    <!--Closing grid tag-->
+                </Grid>
+                <!--Closing stackpanel tag-->
+            </StackPanel>
+            <!--Closing stackpanel tag-->
+        </StackPanel>
+        <!--Closing grid tag-->
+    </Grid>
+    <!--Closing Page-->
+</Page>
+
